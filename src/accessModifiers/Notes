@@ -1,0 +1,32 @@
+Outer Class
+
+- cannot be private, protected, static
+- can be public, default and abstract
+
+Inner Class
+
+- can be public, private, protected, default, final, static and abstract.
+
+Abstract Class
+
+- can be public, abstract and default
+
+Interface
+
+- can be public, abstract, and default
+
+Methods
+
+- can be public, private, protected, default, abstract, final and static
+
+Local Variables
+
+- Will always be same as method within which they are defined by default and we cannot change it access scope.
+- They can be final, but not static and abstract
+
+Instance Variables
+- Can be public, private, protected, default, final and static, but cannot be abstract.
+
+class Variables
+
+- Can be public, private, protected, default and final, but cannot be abstract.
