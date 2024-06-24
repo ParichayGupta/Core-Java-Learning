@@ -23,7 +23,7 @@ public class StringToInteger {
     *   output: -2445
     * */
     public static void main(String[] args) {
-        String s = "-233abcce";
+        String s = "  23663 abcce";
         System.out.println(stringToInteger(s));
     }
 
