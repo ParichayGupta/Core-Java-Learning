@@ -1,4 +1,4 @@
-package DesginPatterns.StrategyDesignPattern;
+package DesignPatterns.StrategyDesignPattern;
 
 public class MediumBotMovingStrategy implements BotMovingStrategy{
     @Override

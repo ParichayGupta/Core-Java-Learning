@@ -1,4 +1,4 @@
-package DesginPatterns.StrategyDesignPattern;
+package DesignPatterns.StrategyDesignPattern;
 
 public class EasyBotMovingStrategy implements BotMovingStrategy{
     @Override

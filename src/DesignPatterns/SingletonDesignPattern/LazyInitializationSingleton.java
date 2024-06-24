@@ -1,4 +1,4 @@
-package DesginPatterns.SingletonDesignPattern;
+package DesignPatterns.SingletonDesignPattern;
 
 public class LazyInitializationSingleton {
 

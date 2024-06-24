@@ -1,0 +1,25 @@
+Strategy Design Pattern
+
+The Strategy Design Pattern is a behavioral design pattern that allows you to define a family of algorithms,
+encapsulate each one of them, and make them interchangeable. The Strategy pattern lets the
+algorithm vary independently from the clients that use it.
+
+In Simple words, The Strategy pattern allows choosing the best-suited algorithm at runtime.
+
+When to use Strategy Design Pattern?
+
+1. When you want to define a class that will have one behavior that is similar to other behaviors in a list.
+2. When you need to use one of several behaviors dynamically.
+3. When you have a class that has a massive conditional operator that switches between different variants of the same algorithm.
+4. When you need to change the behavior of an object at runtime.
+
+Benefits of Strategy Design Pattern:
+
+1. It provides a way to configure a class with one of many behaviors.
+2. Avoids conditional statements for selecting desired behavior.
+3. Allows clients to choose algorithm implementation.
+
+Trade-offs:
+
+Clients must be aware of different Strategies.
+Increase in the number of objects.
