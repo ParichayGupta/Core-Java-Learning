@@ -31,7 +31,7 @@ public class StringToInteger {
         int i = 0;
         int sign = 1;
         int result = 0;
-        if(s.length() == 0) return -1;
+        if(s.isEmpty()) return -1;
         while(i < s.length() && s.charAt(i) == ' '){
             i++;
         }
