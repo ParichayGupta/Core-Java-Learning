@@ -1,5 +1,8 @@
 package ProblemSolving.GoldmanSachs;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class IsomorphicStrings {
 
     /**
@@ -26,4 +29,31 @@ public class IsomorphicStrings {
         }
         return true;
     }
-}
+
+    public static boolean isomorphic(String s1, String s2) {
+        Map<Character, Character> s1Map = new HashMap<>();
+        Map<Character, Character> s2Map = new HashMap<>();
+        if (s1.length() != s2.length()) {
+            return false;
+        }
+        for (int i = 0; i < s1.length(); i++) {
+            char c1 = s1.charAt(i);
+            char c2 = s2.charAt(i);
+            if (s1Map.containsKey(c1)) {
+                if (s1Map.get(c1) != c2) {
+                    return false;
+                }
+            } else {
+                s1Map.put(c1, c2);
+            }
+            if (s2Map.containsKey(c2)) {
+                if (s2Map.get(c2) != c1) {
+                    return false;
+                }
+            } else {
+                s2Map.put(c2, c1);
+            }
+        }
+        return true;
+    }
+ }
