@@ -1,7 +1,7 @@
 package interfaces.FunctionalInterface;
 
 @FunctionalInterface
-public interface InterFace {
+public interface Interface {
 
     void hello();
 
